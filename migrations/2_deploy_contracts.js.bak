@@ -1,0 +1,14 @@
+var Adoption = artifacts.require("Adoption");
+//var OwnerContract = artifacts.require("OwnerContract");
+//var Adoption = artifacts.require("VoteInterface");
+//var Adoption = artifacts.require("VoteKindContract");
+//var Adoption = artifacts.require("VoteContract");
+//var NodeManager = artifacts.require("NodeManager");
+module.exports = function(deployer) {
+  deployer.deploy(Adoption);
+  //deployer.deploy(OwnerContract);
+  //deployer.deploy(VoteInterface);
+  //deployer.deploy(VoteKindContract);
+  //deployer.deploy(VoteContract);
+  deployer.deploy(NodeManager);
+};
